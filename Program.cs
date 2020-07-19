@@ -19,8 +19,8 @@ namespace ArduinoOne
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new RGBForm());
             Application.Run(new ToogleLed());
+            //Application.Run(new RGBForm());
         }
 
         public static void ExecuteOnMainThread(Action action)
