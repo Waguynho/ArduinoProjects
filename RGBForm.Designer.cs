@@ -58,7 +58,6 @@
             this.sliderRed.Name = "sliderRed";
             this.sliderRed.Size = new System.Drawing.Size(516, 45);
             this.sliderRed.TabIndex = 1;
-            this.sliderRed.Scroll += new System.EventHandler(this.sliderRed_Scroll);
             this.sliderRed.ValueChanged += new System.EventHandler(this.sliderRed_ValueChanged);
             // 
             // lbGreen
@@ -79,7 +78,6 @@
             this.sliderGreen.Name = "sliderGreen";
             this.sliderGreen.Size = new System.Drawing.Size(516, 45);
             this.sliderGreen.TabIndex = 1;
-            this.sliderGreen.Scroll += new System.EventHandler(this.sliderGreen_Scroll);
             this.sliderGreen.ValueChanged += new System.EventHandler(this.sliderGreen_ValueChanged);
             // 
             // lbBlue
@@ -100,7 +98,6 @@
             this.sliderBlue.Name = "sliderBlue";
             this.sliderBlue.Size = new System.Drawing.Size(516, 45);
             this.sliderBlue.TabIndex = 1;
-            this.sliderBlue.Scroll += new System.EventHandler(this.sliderBlue_Scroll);
             this.sliderBlue.ValueChanged += new System.EventHandler(this.sliderBlue_ValueChanged);
             // 
             // lbRed

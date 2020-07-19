@@ -115,21 +115,6 @@ namespace ArduinoOne
                 MessageBox.Show(ex.Message, "Problema");
             }            
         }
-        #endregion
-
-        private async void sliderRed_Scroll(object sender, EventArgs e)
-        {
-            await SendColors();
-        }
-
-        private async void sliderGreen_Scroll(object sender, EventArgs e)
-        {
-            await SendColors();
-        }
-
-        private async void sliderBlue_Scroll(object sender, EventArgs e)
-        {
-            await SendColors();
-        }
+        #endregion   
     }
 }
